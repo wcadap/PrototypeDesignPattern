@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2014-07-18T17:05:40" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: '93efa77d-0f6a-462d-93bf-34466b9b41e3' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern' -  (Package)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen' -  (Package)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator' -  (Class)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::Clone' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::DetermineEvenNumbers' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::EvenNumbers' -  (Property)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::EvenNumbersGenerator' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::EvenNumbersGenerator::_numbers' -  (Parameter)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::Numbers' -  (Property)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator::PrintEvenNumbers' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::IEvenNumberGen' -  (Interface)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::IEvenNumberGen::Clone' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::EvenNumberGen::IEvenNumberGen::PrintEvenNumbers' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::Program' -  (Class)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::Program::Main' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::PrototypeDesignPattern::Program::Program' -  (Operation)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::Generic::List&lt;Int32‎&gt;' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::ICloneable' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator to ModelingProject1::System::ICloneable (InterfaceRealization)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PrototypeDesignPattern::EvenNumberGen::EvenNumbersGenerator to ModelingProject1::PrototypeDesignPattern::EvenNumberGen::IEvenNumberGen (InterfaceRealization)" />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="High" Text="(3) type(s) fully reverse engineered." />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2014-07-18T17:05:44" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

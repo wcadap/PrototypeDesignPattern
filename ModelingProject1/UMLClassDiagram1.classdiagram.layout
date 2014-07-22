@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="b5460fb5-d0ce-4dbc-8a50-3b39cefe7bc5" />
+  <nestedChildShapes>
+    <classShape Id="28145ab9-4a81-4857-8f1a-326472f3d593" absoluteBounds="1.25, 0.625, 1.5, 1.3479918644825619" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="f4ae090c-9f7d-486d-aa24-e5cc28d352d9" LastKnownName="Program" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="f75cc1fa-e2ee-4456-88b7-b51c9a7d0a49" absoluteBounds="1.2650000000000001, 1.1403356393178306, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="07ef2217-983d-4313-b902-3523b46f6b0f" absoluteBounds="1.2650000000000001, 1.3515075068672497, 1.4700000000000002, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8695eb05-b566-495f-abdf-60374999a81a" absoluteBounds="3, 2.375, 2.75, 1.9886168446143469" hideQualifiedName="true" increaseHeight="0.18800345897674561" customColor="181, 193, 223">
+      <classMoniker Id="031e3a28-61b5-4382-b1ae-287aa2727495" LastKnownName="EvenNumbersGenerator" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="3c16a8a2-df70-4789-b4f3-8bc78fb0a372" absoluteBounds="3.015, 2.8903356393178306, 2.7199999999999998, 0.52148435761531176" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="dde7df8a-838d-4d39-95bf-d0aca0be662e" absoluteBounds="3.015, 3.4218199969331424, 2.7199999999999998, 0.84179684768120455" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <interfaceShape Id="0a639b57-822f-4cd8-bb4b-c321ba9f80eb" absoluteBounds="3, 0.625, 2.75, 1.4106596841414767" hideQualifiedName="true" increaseHeight="0.18800345897674564" customColor="207, 223, 191">
+      <interfaceMoniker Id="9533d803-4c22-4606-b6ba-66f5082760ee" LastKnownName="IEvenNumberGen" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="8795b602-f124-40be-adff-59ac7d4c4e00" absoluteBounds="3.015, 1.2030034589767458, 2.7199999999999998, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="7eae0396-0b5e-4d09-a971-0ac070ec9c45" absoluteBounds="3.015, 1.414175326526165, 2.7199999999999998, 0.521484357615312" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </interfaceShape>
+    <realizationConnector edgePoints="[(4.375 : 2.375); (4.375 : 2.03565968414148)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" showAsLollipop="false">
+      <interfaceRealizationMoniker Id="67cfe61c-d6e1-44e0-8f4b-9e2331bd526a" />
+      <relativeChildShapes />
+      <nodes>
+        <classShapeMoniker Id="8695eb05-b566-495f-abdf-60374999a81a" />
+        <interfaceShapeMoniker Id="0a639b57-822f-4cd8-bb4b-c321ba9f80eb" />
+      </nodes>
+    </realizationConnector>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e9b3d0db-9666-4633-8b6f-f0fed8cec4d7"
+  name="EvenNumberGen"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="dc2619e9-d083-4d9c-a7fd-6fe704492077"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DPrototypeDesignPattern.EvenNumberGen"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="5341c1c1-649c-4a27-bd29-d94efdb7206b"
+        name="EvenNumbersGenerator"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7390fbe9-b06d-4d9b-91e2-9ed446011b7d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="76d4e727-876c-4519-9ead-e646e6101cd9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b81b439-dd85-47fc-93ca-20179c1b021d">
+                <propertyInstance
+                  Id="3a5bcbfc-1d01-466c-9d14-39fadcc5bb29"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1380fe6-9998-4f44-b724-620e9d0b531a">
+                <propertyInstance
+                  Id="1d19fa14-b81d-4605-930f-24797594bc45"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="485981a4-9d21-486f-8026-676e239ed762">
+                <propertyInstance
+                  Id="a30a0843-d549-4544-94ce-5ddb1850d8d4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0c26ec05-39ea-42d3-bb95-13f8ad78affc">
+                <propertyInstance
+                  Id="69d5f951-9fea-44a6-9709-c609c5336f78"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6cb51348-4983-469f-9d39-7c6db4f2e4b8">
+                <propertyInstance
+                  Id="c15ed427-4a63-4001-a9a3-26e45e952438"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="17531f31-13e5-486e-b365-f4f8ed317284">
+            <interfaceMoniker
+              Id="5fb93af7-b1ad-49f9-88c1-e6bb1923a38d"
+              LastKnownName="ICloneable"
+              LastKnownLocation="Package2_1705.uml" />
+          </interfaceRealization>
+          <interfaceRealization
+            Id="5e23ce62-30ab-4f94-b637-b76e6b7c2462">
+            <interfaceMoniker
+              Id="f8f71a64-3c08-4e7f-9a1d-7b5ccb51a917"
+              LastKnownName="IEvenNumberGen"
+              LastKnownLocation="Package1_1705.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="cee60ef3-f2fc-4740-9586-66f73ce681b8"
+            name="EvenNumbers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b9290754-bc88-4c11-a558-128f2ecda57d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3DEvenNumbers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f567f76-4ae1-4a43-86aa-2e9f74ebed3f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cb2f018-85b5-49d8-b7f0-22bef4717da8">
+                    <propertyInstance
+                      Id="4c777cbc-c204-4b91-ac65-bc044cdcd88e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c507668-7547-43db-9b6a-ff467a7b1a1d">
+                    <propertyInstance
+                      Id="f3b13412-aace-4206-b8f1-38afda7ea581"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24385e23-f325-4fe1-a388-e2cd401e4282">
+                    <propertyInstance
+                      Id="242d0469-78c2-44ab-be00-1b4bedd708e8"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc7b512b-6b30-41d9-a252-1686ba17a16c">
+                    <propertyInstance
+                      Id="8318cabe-46ad-44a6-a961-604b4c898571"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbce44b3-e54b-4d35-9e78-2ad87d69b036">
+                    <propertyInstance
+                      Id="c8a1e789-f73f-4322-af25-e604c4c73160"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="69a1610f-8a04-4f04-a244-db0effd57bc2"
+                LastKnownName="List&lt;Int32‎&gt;"
+                LastKnownLocation="Package4_1705.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="34511d98-72d8-4166-b7a7-2e54f341a16f"
+            name="Numbers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2b15b010-a6f5-443a-bae8-0dbe3bbdc442"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3DNumbers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a6e077ab-6177-44a4-87fc-af610ce845bf"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bf9849b-802f-45ee-9e69-6b12f8448eb1">
+                    <propertyInstance
+                      Id="a32a0a9a-c321-4503-874a-fc70b6dd8356"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52c9c228-e553-4f40-992e-32750dfc4b87">
+                    <propertyInstance
+                      Id="3e76909f-d2a3-428f-9e58-3a685885d1f7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7ecbfa8-0658-4d9d-b4be-259277a65737">
+                    <propertyInstance
+                      Id="3ab6da53-35b0-48bf-aeae-da784e6b90ed"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="958a0b0f-52eb-4de7-b45b-7cc5d1bc7927">
+                    <propertyInstance
+                      Id="70211d3a-5542-42cf-ac6e-494137fc125d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afb24a24-a51a-4885-a852-54e6b5334709">
+                    <propertyInstance
+                      Id="338f1306-7f61-497d-afd3-6a14b22d496d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4e900b22-0406-4617-b8fd-363df97374fb"
+            name="EvenNumbersGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="39b0b638-465d-4f63-9dfd-601c01394786"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eb405e94-e028-422b-a0c3-d6df93a8cdc1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c385bb35-639c-4456-a2ef-59367faa284c">
+                    <propertyInstance
+                      Id="bd3e9da1-ab09-48e2-a857-452511c3aad6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68931893-ee44-4a83-93ee-6e503b44f35f">
+                    <propertyInstance
+                      Id="15e98b8b-3b73-447f-89cb-d1367beb96fa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="608da925-ee43-46f5-8040-a5a9f754683a">
+                    <propertyInstance
+                      Id="503d9fd1-0f36-4b87-9941-f3ecf3803e29"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4c20453-da9b-4289-a6b1-8ede8f7fd6ac">
+                    <propertyInstance
+                      Id="790ab21d-3595-4134-bed5-42f6c9888d7f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54f2efb4-5829-4d8f-823a-a5e9434f5e9f">
+                    <propertyInstance
+                      Id="5cd3eb01-c927-4aa4-bd17-5ed9f8660deb"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af7f7aed-1206-4e91-9d96-7d20545f0016">
+                    <propertyInstance
+                      Id="920c6ffb-0994-4916-b25d-9282e8e874fb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c24a783c-4141-45f3-8521-48ba4754244d"
+                  name="_numbers"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="46c05fab-7364-4c5a-9a53-334036eef100"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.1%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3D_numbers"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3e4efd9f-1293-4a31-a408-837a5396f27e"
+            name="Clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bf94c1ab-0b53-4899-8c0a-b18dda0012f8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3DClone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="78cb1a0d-bbb7-4dfa-be09-c286dbe3c1c6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="281de58e-7868-4545-9336-9ec7e9e09cfc">
+                    <propertyInstance
+                      Id="4c110c48-de2e-44a5-80e9-44ba45954ed2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7f8c93c-0eab-44a6-866d-d286a51251ce">
+                    <propertyInstance
+                      Id="e587764d-6390-4053-873f-f1a67a93ab17"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72e8df9d-cad2-4da2-bbeb-57b98de76c8f">
+                    <propertyInstance
+                      Id="4fe6ab59-7b21-43a0-8422-e76fc627fcfc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51b6f329-6db2-406b-87f8-90c4b1305efb">
+                    <propertyInstance
+                      Id="33dbb886-d13e-4efb-8d7a-51ea8510fe6d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a7cf953-78da-4b6c-99f9-9510a61c9fd7">
+                    <propertyInstance
+                      Id="bb1d6649-b61a-4910-95c8-93178b860af0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15e22b9a-248b-4bc0-9721-537ac9475be2">
+                    <propertyInstance
+                      Id="61ba639a-0e0f-4892-a44d-7eaa91ddb201"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f099f423-0333-421e-889b-addfee49b424"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d8e85d4d-674f-45c6-860b-2cc5b7de6e1f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4158cb67-62d9-461e-a7fb-3d1fdd14221b"
+            name="DetermineEvenNumbers"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e34333a4-d705-4059-bf8a-07130a927282"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3DDetermineEvenNumbers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="224674aa-f243-4bc7-958a-9b2b050a5aaf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a35ca52a-3041-4440-9b0f-82d60634104f">
+                    <propertyInstance
+                      Id="1498f468-19b2-41f3-b6dd-4acd5353f6d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7bd22e3-a3c2-4f1a-9585-93a88e823857">
+                    <propertyInstance
+                      Id="cc1a1c3d-aa9b-40b3-88e3-8720b0eca95f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6273b2f-b0da-4d3a-a796-56d76ad48c9a">
+                    <propertyInstance
+                      Id="11b7ba1e-48c6-4443-a4c9-c6a2abfb3555"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66143d7a-7d7e-4203-a346-5b8abc118514">
+                    <propertyInstance
+                      Id="3d4baec4-bc70-4291-9439-adb4905ad8b5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd4cb27e-57d4-4aa8-b7e9-d44b5f7b5b8e">
+                    <propertyInstance
+                      Id="18dc03b0-dbc4-42ff-a45d-8a04563741cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2e4947c-3313-4eb6-a3bb-01d7cda6c13b">
+                    <propertyInstance
+                      Id="c45c9bbe-3716-4e70-b61c-73ec7bf73e74"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="44ae8236-cafd-46a6-b3a0-13984f62d32e"
+            name="PrintEvenNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3e180735-c470-44f4-afce-86a98df16808"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DEvenNumbersGenerator Member%3DPrintEvenNumbers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4d56997c-ac17-4540-ab32-bd159359a6f7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9270e789-10c3-42f7-9ede-e4b60c877865">
+                    <propertyInstance
+                      Id="a494afb4-af8d-4c0b-9556-ed0c852d79b8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b8410cd-65b9-41c1-b946-6179327371f6">
+                    <propertyInstance
+                      Id="52bd04db-1908-4574-bfe1-ccf5272b6c29"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="014b409e-3f6f-41f4-a7ea-886e8ab76836">
+                    <propertyInstance
+                      Id="ecb957bc-be01-4ff0-ba73-bc75c4b0a9dc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7096b047-94ce-407a-af68-58494c3a14cb">
+                    <propertyInstance
+                      Id="33e69c5b-3e25-4ea8-a110-fcd4bf6cc714"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bef1defc-eea4-43c9-a3c9-14e2c1b9612e">
+                    <propertyInstance
+                      Id="2ef96900-c5ba-4a78-b728-70efe53ea514"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1485b0b7-e97b-49b2-b36a-bc98e02ec973">
+                    <propertyInstance
+                      Id="2741eedd-89a7-4511-8e9e-af14c23358e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="f8f71a64-3c08-4e7f-9a1d-7b5ccb51a917"
+        name="IEvenNumberGen"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="40f13758-b6f5-444f-9b6b-b9661ad5513b"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DIEvenNumberGen"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="210ca230-741a-449e-861f-88f14c458b80"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b81ab259-de3c-46e7-8f4d-79231d717628">
+                <propertyInstance
+                  Id="6a9392a9-307b-41b8-9aec-fd8b4cf9ac58"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46449e03-58af-49af-a189-7e3b923c6cba">
+                <propertyInstance
+                  Id="0ffd83ca-274a-4d70-bac2-778c90321cfd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3dc9289-c461-452c-8c28-3c2264052c5b">
+                <propertyInstance
+                  Id="17fc683e-0ffb-4952-896a-1f84844ef5ca"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd37856c-8a8d-411a-a2c9-1c1012e1a189">
+                <propertyInstance
+                  Id="80bc4e38-2154-42e6-adb6-93ffd4eb06af"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="94a007ca-f645-4236-adc5-a5080bce7423"
+            name="Clone"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4bbc73de-94c7-4164-a151-13a53caccb5b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DIEvenNumberGen Member%3DClone"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33dab88a-e1ae-43cf-aa0f-5cc53d2415c3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbc581e1-bedc-4b24-a6b9-e71e853c6c81">
+                    <propertyInstance
+                      Id="66e3dddb-abcc-44e8-968c-485396d3c3a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0597e9c-f2b2-48c6-b645-fbe4d435da2e">
+                    <propertyInstance
+                      Id="a9b3b56e-bc89-4f85-b41b-385a6066b8ca"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9567383c-531b-4404-a210-44428417c1be">
+                    <propertyInstance
+                      Id="5b4c141e-2664-4ab1-b8c4-b85eefd66b7c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="763827fa-e79e-493f-8cae-cbc555126213">
+                    <propertyInstance
+                      Id="b4eaf070-907d-4a6d-b931-4a9466b458a8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97cb91d6-5e53-4894-bf94-5de668c048c3">
+                    <propertyInstance
+                      Id="6d1118c4-a32c-48d9-8b60-f51a501842ea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb2750dc-9a12-4d54-b605-a5d146558ba8">
+                    <propertyInstance
+                      Id="9eb2c75e-dd12-4354-9c84-7ca9d14d4e79"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="263e6523-983a-4ef3-a11a-b7dd8db5caee"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d8e85d4d-674f-45c6-860b-2cc5b7de6e1f"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package2_1705.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d2695de1-ce4b-4e86-b2df-0f7bc3dbd210"
+            name="PrintEvenNumbers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="178d6333-dbf6-4699-b65b-124fd208eff5"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FBlogs%2FDesign Patterns%2FPrototype Design Pattern%2FPrototypeDesignPattern%2Fbin%2FDebug%2FPrototypeDesignPattern.exe&quot; Namespace%3DPrototypeDesignPattern.EvenNumberGen Type%3DIEvenNumberGen Member%3DPrintEvenNumbers"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf3198b1-baf6-4dc9-8987-c710a1716a4d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca1568f6-bc09-445d-8b7e-4f72acd4ec04">
+                    <propertyInstance
+                      Id="8cc4e850-17a1-4fcc-a16b-6561efe617ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce3c70fb-a59f-483c-a540-5675912d693a">
+                    <propertyInstance
+                      Id="91b620a0-50d4-49db-9561-4866a299f9df"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b4c470e-5a4b-4189-b5a4-6a5a74bb6ced">
+                    <propertyInstance
+                      Id="255b46ac-1239-4f86-a25f-ead15655babd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1394e331-b57a-4ac0-9186-5f2fa52d1c19">
+                    <propertyInstance
+                      Id="8c94fb7f-b7bd-4987-985f-e63bff4d36c0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f75d5582-5cd7-43b1-b62f-ce33f4f5aaa0">
+                    <propertyInstance
+                      Id="810260e6-39f8-463c-927d-fa2efdba0598"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4821ada-36eb-4c7e-a076-50cb8a15f075">
+                    <propertyInstance
+                      Id="2cded095-147e-4711-a111-1f6eb1a76628"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
